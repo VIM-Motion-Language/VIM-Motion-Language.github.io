@@ -310,11 +310,10 @@
     </div>
   </section>
 
-  <section class="section"  style="background-color:#efeff081">
+  <!-- <section class="section"  style="background-color:#efeff081">
     <div class="container is-max-desktop">
-      <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
-        <div class="column is-six-fifths">
+        <div class="column is-four-fifths">
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
@@ -326,9 +325,20 @@
       </div>
         
     </div>
+  </section> -->
+  <section class="section" style="background-color:#efeff081">
+    <div class="container" style="display: flex; justify-content: center;">
+      <!-- Abstract. -->
+      <div style="width: 70%;">
+        <h2 class="title is-3 has-text-centered">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent advancements in large language models (LLMs) have greatly enhanced their ability to generate natural and contextually relevant text, making AI interactions more human-like. However, generating and understanding interactive human-like motion, where two individuals engage in coordinated movements, remains a challenge due to the complexity of modeling these coordinated interactions. Furthermore, a versatile model is required to handle diverse interactive scenarios, such as chat systems that follow user instructions or adapt to their assigned role while adjusting interaction dynamics. To tackle this problem, we introduce VIM, short for the Versatile Interactive Motion language model, which integrates both language and motion modalities to effectively understand, generate, and control interactive motions in multi-turn conversational contexts. To address the scarcity of multi-turn interactive motion data, we introduce a synthetic dataset called INTER-MT<sup>2</sup>; where we utilize pre-trained models to create diverse instructional datasets with interactive motion. Our approach first trains a motion tokenizer that encodes interactive motions into residual discrete tokens. In the pre-training stage, the model learns to align motion and text representations with these discrete tokens. During the instruction fine-tuning stage, VIM adapts to multi-turn conversations using INTER-MT<sup>2</sup>. We evaluate the versatility of our method across motion-related tasks—motion-to-text, text-to-motion, reaction generation, motion editing, and reasoning about motion sequences. The results highlight VIM’s versatility and effectiveness in handling complex interactive motion synthesis.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
-
-
   
 <section class="section">
   <!-- Results. -->
